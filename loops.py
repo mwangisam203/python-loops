@@ -22,3 +22,11 @@ for i in enumerate(mytuple):
             #(1, 'Cairo')
             #(2, 'Lagos')
             #(3, 'Rabat')
+
+#Direct tuple looping
+for x in mytuple:
+   if x == "Lagos":
+     break
+   print(x)  #output each item in the tuple until "Lagos" is reached
+             #Nairobi
+             #Cairo 
