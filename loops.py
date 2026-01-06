@@ -30,3 +30,22 @@ for x in mytuple:
    print(x)  #output each item in the tuple until "Lagos" is reached
              #Nairobi
              #Cairo 
+
+
+#Index-based loop (range)
+for i in range(len(mytuple)):
+    if i == 2:
+       break
+    print(mytuple[i])  #output each item in the tuple until index 2 is reached
+                       #Nairobi
+                       #Cairo   
+
+
+#Direct Loop Continue
+for x in mytuple:
+    if x == "Lagos":
+        continue
+    print(x)  #output each item in the tuple except "Lagos"
+              #Nairobi
+              #Cairo
+              #Rabat    
